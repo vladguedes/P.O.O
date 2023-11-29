@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Questao_5 {
 
     public static void main(String[] args) {
-        System.out.println("Digite um valor maior igual que 100 e menor igual 999: ");
+        System.out.print("Digite um valor maior igual que 100 e menor igual 999: ");
         Scanner input = new Scanner(System.in);
         int CDU, UCD;
         int C, D, U;
@@ -16,7 +16,7 @@ public class Questao_5 {
         D = (CDU - C * 100) / 10;
         U = CDU % 10;
         UCD = U * 100 + C * 10 + D;
-        System.out.println("CDU = " + CDU + "\nUCD = " + UCD);
+        System.out.println("\nCDU = " + CDU + "\nUCD = " + UCD);
 
         input.close();
     }
