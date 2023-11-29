@@ -11,14 +11,14 @@ public class Questao_7 {
         int[] valor = new int[3];
         int maior;
         
-        for(int i = 0; i <= 2; i++) {
+        for (int i = 0; i <= 2; i++) {
             System.out.printf("Valor %d: ", i+1);
             valor[i] = input.nextInt();
         }
 
         maior = valor[0];
 
-        for(int i = 0; i <= 2; i++) {
+        for (int i = 0; i <= 2; i++) {
             if(maior < valor[i]) {
                 maior = valor[i];
             }
