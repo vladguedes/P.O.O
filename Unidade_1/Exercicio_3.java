@@ -5,11 +5,11 @@ public class Exercicio_3 {
         System.out.println("CALENDÁRIO");
         Scanner input = new Scanner(System.in);
         int dia, mes, ano;
-        String saidaFormatada;
+        String saidaFormatada = "";
 
         System.out.print("Digite o dia: ");
         dia = input.nextInt();
-        System.out.print("Digite o mês: ")
+        System.out.print("Digite o mês: ");
         mes = input.nextInt();
         System.out.print("Digite o ano: ");
         ano = input.nextInt();
@@ -41,5 +41,11 @@ public class Exercicio_3 {
         } else if (mes == 12) {
             saidaFormatada += "Dezembro";
         }
+
+        saidaFormatada += " de " + ano;
+
+        System.out.println(saidaFormatada);
+
+        input.close();
     }
 }
