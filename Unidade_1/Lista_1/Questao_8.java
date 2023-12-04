@@ -10,34 +10,32 @@ public class Questao_8 {
 
         setor = input.nextInt();
         System.out.print("Setor: ");
-        
+
         switch (setor) {
             case 111:
-            System.out.print("Valor do produto: ");
-            valorDoProduto = input.nextDouble();
+                System.out.print("Valor do produto: ");
+                valorDoProduto = input.nextDouble();
 
-            if (valorDoProduto >= 100) {
-                valorDoProduto = valorDoProduto - (valorDoProduto * 0.4);
-            }
-            else if (valorDoProduto >= 50 && valorDoProduto < 100) {
-                valorDoProduto = valorDoProduto - (valorDoProduto * 0.2);
-            }
-            else {
-                valorDoProduto = valorDoProduto - (valorDoProduto * 0.1);
-            }
-                
+                if (valorDoProduto >= 100) {
+                    valorDoProduto = valorDoProduto - (valorDoProduto * 0.4);
+                } else if (valorDoProduto >= 50 && valorDoProduto < 100) {
+                    valorDoProduto = valorDoProduto - (valorDoProduto * 0.2);
+                } else {
+                    valorDoProduto = valorDoProduto - (valorDoProduto * 0.1);
+                }
+
                 break;
-            
-            case 222:
-            System.out.print("Valor do produto: ");
-            valorDoProduto = input.nextDouble();
 
-            if (valorDoProduto >= 500) {
-                valorDoProduto = valorDoProduto - (valorDoProduto * 0.1);
-            }
-        
+            case 222:
+                System.out.print("Valor do produto: ");
+                valorDoProduto = input.nextDouble();
+
+                if (valorDoProduto >= 500) {
+                    valorDoProduto = valorDoProduto - (valorDoProduto * 0.1);
+                }
+
             default:
-            System.out.println("Setor Inválido");
+                System.out.println("Setor Inválido");
                 System.exit(0);
         }
         System.out.printf("Seu valor com desconto foi %g", valorDoProduto);
