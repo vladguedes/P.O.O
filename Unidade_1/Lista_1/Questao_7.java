@@ -9,22 +9,22 @@ public class Questao_7 {
         System.out.println("Digite 3 valores");
         Scanner input = new Scanner(System.in);
         int[] valor = new int[3];
-        int maior;
+        int menor;
         
         for (int i = 0; i <= 2; i++) {
-            System.out.printf("Valor %d: ", i+1);
+            System.out.printf("\nValor %d: ", i+1);
             valor[i] = input.nextInt();
         }
 
-        maior = valor[0];
+        menor = valor[0];
 
         for (int i = 0; i <= 2; i++) {
-            if(maior < valor[i]) {
-                maior = valor[i];
+            if(menor > valor[i]) {
+                menor = valor[i];
             }
         }
 
-        System.out.printf("O maior valor é %d", maior);
+        System.out.printf("\nO menor valor é %d", menor);
         
         input.close();
     }
