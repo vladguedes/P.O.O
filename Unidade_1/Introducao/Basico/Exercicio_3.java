@@ -1,3 +1,4 @@
+package Introducao.Basico;
 import java.util.Scanner;
 
 public class Exercicio_3 {
