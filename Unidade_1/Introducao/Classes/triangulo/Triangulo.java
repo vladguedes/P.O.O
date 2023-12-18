@@ -1,4 +1,4 @@
-package Introducao.Classes;
+package triangulo;
 
 public class Triangulo {
     double l1;

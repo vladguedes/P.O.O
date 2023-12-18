@@ -1,3 +1,4 @@
+package Lista_1.IntroducaoAoJava;
 public class Questao_13 {
     public static void main(String[] args) {
         System.out.println("================================= MEGA-SENA =================================\n");

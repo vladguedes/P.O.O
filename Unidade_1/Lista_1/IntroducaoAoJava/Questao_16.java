@@ -1,3 +1,4 @@
+package Lista_1.IntroducaoAoJava;
 public class Questao_16 {
     public static void main(String[] args) {
         System.out.println("Todos os números de 3 algarismos que a soma dos cubos de seus algarismos sejam iguais ao próprio número.");
