@@ -1,3 +1,5 @@
+package faculdade;
+
 public class RegistroAcademico {
     String nome;
     String matricula;
