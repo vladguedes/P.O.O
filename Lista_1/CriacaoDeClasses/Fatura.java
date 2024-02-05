@@ -1,6 +1,5 @@
 package Lista_1.CriacaoDeClasses;
 
-import java.util.Scanner;
 
 public class Fatura {
     String descricao;
@@ -13,17 +12,6 @@ public class Fatura {
         this.identificacao = identificacao;
         this.quantidadeComprada = quantidadeComprada;
         this.precoUnitario = precoUnitario;
-    }
-
-    void novoProduto() {
-        Scanner input = new Scanner(System.in);
-        System.out.print("\nDigite a identificação do produto: ");
-        identificacao = input.next();
-        System.out.print("\nDigite a descrição do produto: ");
-        descricao = input.nextLine();
-        System.out.print("\nDigite o preço deste  produto: ");
-        precoUnitario = input.nextFloat();
-        input.close();
     }
 
     float calculaTotal(int quantidadeComprada, float precoUnitario) {

@@ -5,6 +5,12 @@ public class Data {
     private int mes;
     private int ano;
 
+    /*Data(int dia, int mes, int ano) {
+        this.dia;
+        this.mes;
+        this.ano;
+    }*/
+
     boolean dataEhValida() {
         return (dia >= 1 && dia <= 30 && mes >=1 && mes <= 12 && ano >= 0);
     }
