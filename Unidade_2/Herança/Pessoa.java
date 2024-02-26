@@ -25,10 +25,8 @@ public class Pessoa {
         this.identidade = identidade;
     }
 
+    @Override
     public String toString() {
-        String res = "";
-        res += "Nome: " + nome + "\n";
-        res += "Identidade: " + identidade + "\n";
-        return (res);
+        return "nome=" + nome +  ", identidade=" + identidade;
     }
 }
