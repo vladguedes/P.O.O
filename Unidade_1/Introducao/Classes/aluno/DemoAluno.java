@@ -1,4 +1,4 @@
-package Introducao.Classes.aluno;
+package aluno;
 
 public class DemoAluno {
     public static void main(String[] args) {

@@ -25,8 +25,7 @@ public class Extrato {
     public void visualizar() {
         System.out.println("======================");
         for (int i = 0; i < transacoes.size(); i++) {
-            System.out.println("Transação #" + i + ": 
-            " + transacoes.get(i));
+            System.out.println("Transação #" + i + ":" + transacoes.get(i));
         }
         System.out.println("Saldo: " + saldo);
         System.out.println("======================");

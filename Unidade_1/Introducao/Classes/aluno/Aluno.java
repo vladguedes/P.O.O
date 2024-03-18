@@ -1,8 +1,8 @@
-package Introducao.Classes.aluno;
+package aluno;
 
 public class Aluno {
-    private String nome;
-    private String matricula;
+    //private String nome;
+    //private String matricula;
     private float[] notaProva;
     private float notaTrabalho;
 
