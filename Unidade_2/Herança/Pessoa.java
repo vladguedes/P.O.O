@@ -1,6 +1,6 @@
 package Unidade_2.Herança;
 
-public class Pessoa {
+abstract class Pessoa {
     private String nome;
     private String identidade;
 

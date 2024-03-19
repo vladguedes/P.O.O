@@ -7,8 +7,8 @@ public class Aluno {
     private float notaTrabalho;
 
     Aluno(String nome, String matricula, float[] notaProva, float notaTrabalho) {
-        this.nome = nome;
-        this.matricula = matricula;
+        //this.nome = nome;
+        //this.matricula = matricula;
         this.notaProva = notaProva;
 
         this.notaTrabalho = notaTrabalho;
